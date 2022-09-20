@@ -11,9 +11,10 @@
 
 ## Project Summary:
 
-- Key Finding 1
-- Key Finding 2
-- Key Finding 3
+- The dataset contains a total of 11,742 images with 19 types of sea animals.
+- My initial CNN model had a test accuracy of 37.1%, but by adding more layers and utilizing data augmentation, I was able to increase accuracy to 48.6%.
+- The models generally performed well in classifying *turtles/tortoises*, *sea urchins*, *jellyfish*, *crabs*, and *starfish* with F1-scores ranging from 0.62 - 0.80. They performed badly in classifying *eels*, *octopus*, *puffers*, *sea rays*, and *squids* with F1-scores of 0.05 - 0.30.
+- Possible reasons as to why the models have a fairly poor performance include having only a basic knowledge of CNN’s, insufficient training set, use of suboptimal tools, and lack of access to a high-performance computer. 
 
 ## Links:
 
